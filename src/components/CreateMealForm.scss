@@ -1,0 +1,30 @@
+.form {
+  & input {
+    height: 2em;
+    margin: 0;
+    width: 100%;
+    box-sizing:border-box;
+  }
+
+  & .group {
+    margin-bottom: 1em;
+  }
+
+  & textarea {
+    width: 100%;
+    box-sizing:border-box;
+    height: 8em;
+  }
+
+  & form {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  & label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.25em;
+  }
+}

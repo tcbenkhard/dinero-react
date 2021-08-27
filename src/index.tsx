@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fontsource/roboto';
+import Amplify from 'aws-amplify';
+import awsconfig from './config/amplify.conf';
+
+Amplify.configure(awsconfig);
 
 ReactDOM.render(
   <React.StrictMode>
